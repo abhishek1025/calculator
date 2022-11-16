@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+}
+
+main {
+  margin: 80px auto 70px auto;
+  width: 400px;
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+main button {
+  width: 80px;
+  height: 60px;
+  margin-top: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+main button:hover {
+  cursor: pointer;
+}
+
+.cal-screen {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 25px 10px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 30px;
+}
+
+.cal-buttons {
+  margin-top: 10px;
+}
+
+.operators-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.operators-wrapper button {
+  font-size: 20px;
+}
+
+.operators-wrapper button:focus {
+  background-color: #F69807;
+  border: 1px solid #F69807;
+  color: white;
+}
+
+.main-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cal-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 25px;
+}
+
+.cal-numbers button {
+  font-size: 20px;
+}
+
+.cal-functionality-btns button {
+  height: 42.5%;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: #F69807;
+  border: 1px solid #F69807;
+  color: white;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 25px;
+}
+
+footer a {
+  color: #F69807;
+}
+/*# sourceMappingURL=style.css.map */

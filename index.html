@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <script src="https://kit.fontawesome.com/9c3cc2a6a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <main>
+        <div class="cal-screen">
+            0
+        </div>
+
+        <div class="cal-buttons">
+
+            <div class="operators-wrapper">
+
+                <button class="operator">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <button class="operator" style="font-size: 40px;">
+                    -
+                </button>
+
+                <button class="operator">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <button class="operator">
+                    <i class="fa-solid fa-divide"></i>
+                </button>
+
+            </div>
+
+            <div class="main-btns">
+                <div class="cal-numbers">
+                    <button onclick="getNumber(9)">9</button>
+                    <button onclick="getNumber(8)">8</button>
+                    <button onclick="getNumber(7)">7</button>
+                    <button onclick="getNumber(6)">6</button>
+                    <button onclick="getNumber(5)">5</button>
+                    <button onclick="getNumber(4)">4</button>
+                    <button onclick="getNumber(3)">3</button>
+                    <button onclick="getNumber(2)">2</button>
+                    <button onclick="getNumber(1)">1</button>
+                    <button onclick="getNumber(0)">0</button>
+                    <button onclick="getNumber('decimal')">.</button>
+                    <button id="reset">C</button>
+                </div>
+
+                <div class="cal-functionality-btns">
+
+                    <button id="delete"><i class="fa-solid fa-delete-left"></i></button>
+                    <button class="equalToBtn">=</button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        Copyright © 2022
+        <a href="https://github.com/abhishek1025/calculator" target="_blank">ABHISHEK</a>
+    </footer>
+
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
